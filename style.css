@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #fae7c4;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,14 +18,16 @@ body {
     background-color: #f5d69e;
     text-align: center;
 
-    padding: 2rem;
+    padding: 1rem;
     border-radius: .5rem;
 
     border: solid 1px #5f0a08;
     box-shadow: 0 0 50px #8dd9cc89;
 
     display: grid;
-    gap: 50px;
+    gap: 25px;
+
+    width: fit-content;
 }
 
 .content img {
@@ -36,7 +38,7 @@ body {
     background-color: #dbe1eb;
     height: 50px;
 
-    font-size: medium;
+    font-size: small;
     padding-left: 2rem;
     padding-right: 2rem;
 
@@ -68,7 +70,7 @@ body {
     background-color: #fe5c40;
     height: 40px;
     color: white;
-    font-size: medium;
+    font-size: small;
     border-radius: .3rem;
     border: 1px solid #ca534c;
     cursor: pointer;
@@ -90,13 +92,12 @@ body {
 .content .items button {
     background-color: #8dd9cc;
     padding: .7rem;
-    font-size: large;
+    font-size: medium;
     font-weight: bold;
     border-radius: .6rem;
     color: white;
     cursor: pointer;
     transition: .5s;
-
 }
 
 .content .items button:hover {
@@ -113,7 +114,7 @@ body {
     top: 15px;
     width: 100%;
     position: absolute;
-    font-size: medium;
+    font-size: small;
     color: #5f0a08;
 
     transition: .5s;
