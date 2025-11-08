@@ -36,7 +36,7 @@ body {
     background-color: #dbe1eb;
     height: 50px;
 
-    font-size: x-large;
+    font-size: large;
     padding-left: 2rem;
     padding-right: 2rem;
 
@@ -51,7 +51,7 @@ body {
 .content label::before,
 .content label::after {
     opacity: 0%;
-    content: " ———— ";
+    content: " —— ";
     transition: 1s;
 }
 
@@ -59,7 +59,7 @@ body {
 .content input:focus~label::after,
 .content input:valid~label::before,
 .content input:valid~label::after {
-    content: " ———— ";
+    content: " —— ";
     color: #ca534c;
     opacity: 100%;
 }
@@ -68,7 +68,7 @@ body {
     background-color: #fe5c40;
     height: 40px;
     color: white;
-    font-size: x-large;
+    font-size: large;
     border-radius: .3rem;
     border: 1px solid #ca534c;
     cursor: pointer;
