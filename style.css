@@ -29,14 +29,14 @@ body {
 }
 
 .content img {
-    width: 300px;
+    width: 200px;
 }
 
 .content input {
     background-color: #dbe1eb;
     height: 50px;
 
-    font-size: large;
+    font-size: medium;
     padding-left: 2rem;
     padding-right: 2rem;
 
@@ -68,7 +68,7 @@ body {
     background-color: #fe5c40;
     height: 40px;
     color: white;
-    font-size: large;
+    font-size: medium;
     border-radius: .3rem;
     border: 1px solid #ca534c;
     cursor: pointer;
@@ -90,7 +90,7 @@ body {
 .content .items button {
     background-color: #8dd9cc;
     padding: .7rem;
-    font-size: larger;
+    font-size: large;
     font-weight: bold;
     border-radius: .6rem;
     color: white;
@@ -113,7 +113,7 @@ body {
     top: 15px;
     width: 100%;
     position: absolute;
-    font-size: large;
+    font-size: medium;
     color: #5f0a08;
 
     transition: .5s;
